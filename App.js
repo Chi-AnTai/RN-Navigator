@@ -12,7 +12,7 @@ const Screen1 = ({ navigator }) => (
       title="Pop"
       onPress={() => navigator.pop()}
     />
-  </View>
+  </View> 
 );
 
 const Screen2 = ({ navigator }) => {
