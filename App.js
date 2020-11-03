@@ -35,7 +35,7 @@ const Screen5 = ({ navigator }) => (
     <Button
       title="Poppppp11"
       onPress={() => navigator.pop()}
-    />
+    /> 
   </View>
 );
 export default class App extends React.Component {
