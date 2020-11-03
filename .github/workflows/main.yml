@@ -11,7 +11,7 @@ jobs:
         with:
           # Fetches entire history, so we can analyze commits since last tag
           fetch-depth: 0
-        - name: Conventional Changelog Action
+      - name: Conventional Changelog Action
         uses: TriPSs/conventional-changelog-action@v3
         with:
           github-token: ${{ secrets.github_token }}
