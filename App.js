@@ -33,7 +33,7 @@ const Screen2 = ({ navigator }) => {
 const Screen5 = ({ navigator }) => (
   <View style={[styles.screen, { backgroundColor: '#B9E3C6' }]}>
     <Button
-      title="Popp"
+      title="Pop"
       onPress={() => navigator.pop()}
     />
   </View>
