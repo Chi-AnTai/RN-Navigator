@@ -40,7 +40,7 @@ const Screen5 = ({ navigator }) => (
 );
 export default class App extends React.Component {
     render() {
-      return (
+      return ( 
         <Navigator>
           <Route name="Screen1" component={Screen1} />
           <Route name="Screen2" component={Screen2} />
