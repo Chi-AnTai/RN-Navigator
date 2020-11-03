@@ -9,7 +9,7 @@ const Screen1 = ({ navigator }) => (
       onPress={() => navigator.push('Screen2')}
     />
     <Button
-      title="Pop"
+      title="PopKing"
       onPress={() => navigator.pop()}
     />
   </View>   
