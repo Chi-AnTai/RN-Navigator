@@ -9,7 +9,7 @@ const Screen1 = ({ navigator }) => (
       onPress={() => navigator.push('Screen2')}
     />
     <Button
-      title="Pop"
+      title="PopKing"
       onPress={() => navigator.pop()}
     />
   </View>   
@@ -19,7 +19,7 @@ const Screen2 = ({ navigator }) => {
     return (
         <View style={[styles.screen, { backgroundColor: '#23395B' }]}>
           <Button
-            title="Screen 3"
+            title="Screen 2"
             onPress={() => navigator.push('Screen3')}
           />
           <Button
@@ -30,7 +30,7 @@ const Screen2 = ({ navigator }) => {
       );
 }
 
-const Screen3 = ({ navigator }) => (
+const Screen5 = ({ navigator }) => (
   <View style={[styles.screen, { backgroundColor: '#B9E3C6' }]}>
     <Button
       title="Pop"
