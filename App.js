@@ -26,21 +26,21 @@ const Screen2 = ({ navigator }) => {
             title="Pop"
             onPress={() => navigator.pop()}
           />
-        </View>
+        </View> 
       );
 }
 
 const Screen5 = ({ navigator }) => (
   <View style={[styles.screen, { backgroundColor: '#B9E3C6' }]}>
     <Button
-      title="Pop"
+      title="Popp"
       onPress={() => navigator.pop()}
     />
   </View>
 );
 export default class App extends React.Component {
     render() {
-      return (
+      return ( 
         <Navigator>
           <Route name="Screen1" component={Screen1} />
           <Route name="Screen2" component={Screen2} />
