@@ -19,7 +19,7 @@ const Screen2 = ({ navigator }) => {
     return (
         <View style={[styles.screen, { backgroundColor: '#23395B' }]}>
           <Button
-            title="Screen 3"
+            title="Screen 2"
             onPress={() => navigator.push('Screen3')}
           />
           <Button
